@@ -57,7 +57,7 @@ http://127.0.0.1:8000/movies/?ordering=-popularity&search=love
 
 returns all the movie contains string “love” and sequencing them in ascending popularity
 
-*** this app is deployed to heroku- 
+this app is deployed to heroku- 
     
     fynd-movie-api:
     https://fynd-movie-api.herokuapp.com/
