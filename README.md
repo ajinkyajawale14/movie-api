@@ -59,55 +59,55 @@ returns all the movie contains string “love” and sequencing them in ascendin
 
 this app is deployed to heroku- 
     
-   fynd-movie-api:
+   1. fynd-movie-api:
     https://fynd-movie-api.herokuapp.com/
     
-   api for search movie:
+   2. api for search movie:
     https://fynd-movie-api.herokuapp.com/movies/
     
-   add the new movie:
+   3. add the new movie:
         Name: Saw
         Director: James Wan
         Score: 7.0
         Popularity: 78
     
-   Get the movie list resource in json format
+   4. Get the movie list resource in json format
     https://fynd-movie-api.herokuapp.com/movies/?format=json
     
-   Get the movie list resource in api format
+   5. Get the movie list resource in api format
     https://fynd-movie-api.herokuapp.com/movies/?format=api
     
-   get the movie as in search query (movie with sub-string love)
+   6. get the movie as in search query (movie with sub-string love)
     https://fynd-movie-api.herokuapp.com/movies/?search=love
     
-   order the movies in ascending order of the names:
+   7. order the movies in ascending order of the names:
     https://fynd-movie-api.herokuapp.com/movies/?ordering=name&search=love
     
-   order the movies in descending order of the names:
+   8. order the movies in descending order of the names:
     https://fynd-movie-api.herokuapp.com/movies/?ordering=-name&search=love
     
-   order the movies in ascending order of the director names:
+   9. order the movies in ascending order of the director names:
     https://fynd-movie-api.herokuapp.com/movies/?ordering=director&search=love
     
-   order the movies in descending order of the director names:
+   10. order the movies in descending order of the director names:
     https://fynd-movie-api.herokuapp.com/movies/?ordering=-director&search=love
     
-   order the movies in ascending order of the score:
+   11. order the movies in ascending order of the score:
     https://fynd-movie-api.herokuapp.com/movies/?ordering=score&search=love
     
-   order the movies in descending order of the score:
+   12. order the movies in descending order of the score:
     https://fynd-movie-api.herokuapp.com/movies/?ordering=-score&search=love
     
-   order the movies in the ascending order of the Popularity:
+   13. order the movies in the ascending order of the Popularity:
     https://fynd-movie-api.herokuapp.com/movies/?ordering=popularity&search=love
     
-   order the movies in descending order of the Popularity:
+   14. order the movies in descending order of the Popularity:
     https://fynd-movie-api.herokuapp.com/movies/?ordering=-popularity&search=love
     
-   order the movies in ascending order of the Genre:
+   15. order the movies in ascending order of the Genre:
     https://fynd-movie-api.herokuapp.com/movies/?ordering=genres__name&search=love
     
-   order the movies in descending order of the Genre:
+   16. order the movies in descending order of the Genre:
     https://fynd-movie-api.herokuapp.com/movies/?ordering=-genres__name&search=love
 
    • Further work
