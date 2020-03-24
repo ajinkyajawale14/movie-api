@@ -32,9 +32,9 @@ To access the API please follow below steps:-
 Api Documentation:
 
     • api root- root movie search api
-      link- http://127.0.0.1:8000/
+      link- (http://127.0.0.1:8000/)
     • To list all the movies
-      link- http://127.0.0.1:8000/movies/
+      link- (http://127.0.0.1:8000/movies/)
       
     • At the bottom To add the movie-
       you can see the added movie in the data
