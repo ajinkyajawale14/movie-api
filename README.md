@@ -45,7 +45,7 @@ Api Documentation:
         Popularity: 78
 
     • For Search movie by their name, search for the movie:
-    • http://127.0.0.1:8000/movies/?search=The+Godfather
+      http://127.0.0.1:8000/movies/?search=The+Godfather
 
     • for searching extensively- added the filter feature such as ordering for e.g. ascending popularity
       http://127.0.0.1:8000/movies/?ordering=-popularity
@@ -68,7 +68,7 @@ returns all the movie contains string “love” and sequencing them in ascendin
     add the new movie:
         Name: Saw
         Director: James Wan
-         score: 7.0
+        Score: 7.0
         Popularity: 78
     
     Get the movie list resource in json format
@@ -109,3 +109,9 @@ returns all the movie contains string “love” and sequencing them in ascendin
     
     order the movies in descending order of the Genre:
     https://fynd-movie-api.herokuapp.com/movies/?ordering=-genres__name&search=love
+
+    • Further work
+    1. search the movies based on the genre
+    2. add custome user model
+       
+      
